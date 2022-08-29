@@ -8,6 +8,7 @@ ${url}  https://www.verifiedmarketresearch.com/
 *** Test Cases ***
 FirstPageTitle
     open browser    ${url}     ${browser}
+    maximize browser window
     title should be    Verified Market Research®| Get Market Analysis And Research Reports
 
 
